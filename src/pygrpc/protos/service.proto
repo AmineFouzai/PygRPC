@@ -1,0 +1,16 @@
+syntax="proto3";
+
+service RequestService{
+    rpc RequestHandler(Request) returns (Response){};
+}
+
+message Request{
+
+    string req=1;
+}
+
+message Response{
+
+    string res=1;
+
+}
