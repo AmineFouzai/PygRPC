@@ -5,7 +5,6 @@ import grpc
 import time
 def run():
     res="hello world"
-    pid=os.getpid()
     with grpc.insecure_channel("localhost:8000") as channel:
             stub=PubSubHandler.RequestServiceStub(channel)
             while True:
