@@ -1,6 +1,6 @@
 certifi==2022.12.7
 grpcio==1.30.0
 grpcio-tools==1.30.0
-protobuf==3.15.0
+protobuf==3.18.3
 six==1.15.0
 wincertstore==0.2
